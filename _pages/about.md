@@ -1,6 +1,7 @@
 ---
 layout: about
 title: About
+hide_title: true
 permalink: /
 subtitle: 
 
