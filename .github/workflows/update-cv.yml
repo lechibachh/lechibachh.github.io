@@ -1,0 +1,34 @@
+name: Update CV
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run daily at midnight
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-cv:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Website Repo
+        uses: actions/checkout@v4
+
+      - name: Download CV from CV Repo
+        run: |
+          mkdir -p assets/pdf
+          curl -L -o "assets/pdf/Bach_Le_-_CV.pdf" "https://github.com/lechibachh/CV/raw/main/Bach%20Le%20-%20CV.pdf"
+
+      - name: Commit and Push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/pdf/Bach_Le_-_CV.pdf
+          
+          # Check if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes in CV. Skipping commit."
+          else
+            git commit -m "Update CV from lechibachh/CV repo"
+            git push
+          fi
