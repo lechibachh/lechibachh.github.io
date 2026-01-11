@@ -17,8 +17,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 <div class="mb-3">
-  <a href="/assets/pdf/Bach_Le_-_CV.pdf" target="_blank" rel="noopener noreferrer"><b>Curriculum Vitae</b></a> | 
-  <a href="https://scholar.google.com/citations?user=XUqNsx0AAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><b>Google Scholar</b></a>
+  <a href="/assets/pdf/Bach_Le_-_CV.pdf" target="_blank" rel="noopener noreferrer"><b>Curriculum Vitae</b></a>
+  <a href="https://scholar.google.com/citations?user=XUqNsx0AAAAJ&hl=en" class="ml-3" target="_blank" rel="noopener noreferrer"><b>Google Scholar</b></a>
 </div>
 
 Hi, I'm Bach.
