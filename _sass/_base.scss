@@ -6,21 +6,28 @@
 // Typography
 
 
-body,
-p,
+body {
+  color: var(--global-text-color);
+  font-family: "Roboto", sans-serif;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+  color: var(--global-text-color);
+  font-family: "Piazzolla", serif;
+}
+
+p,
 em,
 div,
 li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: "Piazzolla", serif;
 }
 
 
