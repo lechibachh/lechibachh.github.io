@@ -12,7 +12,7 @@ nav_order: 2
     <div class="d-flex w-100 justify-content-between align-items-baseline">
         <h5 class="mb-1">
             <a href="/assets/pdf/Mathematics_of_Transformers.pdf" target="_blank" rel="noopener noreferrer">
-                Mathematical Foundations of Transformers
+                Mathematics of Transformers
             </a>
         </h5>
         <a class="text-muted">Mar 6, 2026</a>
