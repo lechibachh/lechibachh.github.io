@@ -19,7 +19,7 @@ nav_order: 2
     </div>
     <div class="d-flex w-100 justify-content-between align-items-baseline">
         <p class="mb-0">
-            A synthesis of results on structured and selective state space models, covering recurrence, state-space duality, expressivity, stability, generalization, and in-context learning.
+            A synthesis of results on structured and selective state space models.
         </p>
     </div>
 </div>
