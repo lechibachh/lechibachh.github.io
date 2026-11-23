@@ -35,7 +35,7 @@ nav_order: 2
     </div>
     <div class="d-flex w-100 justify-content-between align-items-baseline">
         <p class="mb-0">
-            A synthesis of dynamical system, optimal transport, and mean-field perspectives on Transformers.
+            A synthesis of results on attention and Transformer architectures.
         </p>
     </div>
 </div>
